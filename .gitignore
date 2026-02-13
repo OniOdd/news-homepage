@@ -1,0 +1,8 @@
+# Dependencies
+/node_modules
+
+# Other
+/design
+example.html
+README.md
+style-guide.md
