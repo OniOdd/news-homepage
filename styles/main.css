@@ -151,14 +151,14 @@ body.lock-screen::before {
 .burger-menu__line:nth-child(3) {
   bottom: 0;
 }
-.burger-menu__line.close-menu:nth-child(1) {
+.burger-menu.close-menu .burger-menu__line:nth-child(1) {
   top: 50%;
   transform: translateY(-50%) rotate(45deg);
 }
-.burger-menu__line.close-menu:nth-child(2) {
+.burger-menu.close-menu .burger-menu__line:nth-child(2) {
   opacity: 0;
 }
-.burger-menu__line.close-menu:nth-child(3) {
+.burger-menu.close-menu .burger-menu__line:nth-child(3) {
   bottom: 50%;
   transform: translateY(50%) rotate(-45deg);
 }
