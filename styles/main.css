@@ -163,4 +163,46 @@ body.lock-screen::before {
   transform: translateY(50%) rotate(-45deg);
 }
 
+.main {
+  display: grid;
+  grid-template-columns: auto;
+  grid-template-rows: repeat(3, auto);
+  gap: 64px 30px;
+}
+
+.hero {
+  display: grid;
+  grid-template-columns: auto;
+  grid-template-rows: repeat(3, auto);
+  max-width: 730px;
+}
+.hero__img {
+  margin-block-end: 1.5rem;
+}
+.hero__title {
+  margin-block-end: 1rem;
+  font-size: 2.5rem;
+  font-weight: 800;
+  line-height: 1;
+  color: hsl(240, 100%, 5%);
+}
+.hero__text {
+  margin-block-end: 1.5rem;
+  line-height: 1.7;
+}
+.hero__link {
+  padding: 1rem 2.25rem 0.938rem 1.938rem;
+  font-size: 0.875rem;
+  font-weight: 700;
+  color: hsl(240, 100%, 5%);
+  letter-spacing: 0.31em;
+  text-transform: uppercase;
+  background-color: hsl(5, 85%, 63%);
+  transition: color 0.15s, background-color 0.15s;
+}
+.hero__link:hover {
+  color: hsl(0, 0%, 100%);
+  background-color: hsl(240, 100%, 5%);
+}
+
 /*# sourceMappingURL=main.css.map */
