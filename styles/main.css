@@ -86,6 +86,7 @@ body.lock-screen::before {
 }
 
 .header {
+  position: relative;
   display: flex;
   justify-content: space-between;
   align-items: center;
@@ -126,9 +127,9 @@ body.lock-screen::before {
 }
 
 .burger-menu {
-  position: fixed;
-  top: 34px;
-  right: 16px;
+  position: absolute;
+  top: 6px;
+  right: 0;
   width: 40px;
   height: 17px;
   z-index: 6;
