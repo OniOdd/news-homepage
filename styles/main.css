@@ -82,7 +82,7 @@ body.lock-screen::before {
   min-height: 100dvh;
   margin-inline: auto;
   padding-block-start: 28px;
-  padding-block-end: 82px;
+  padding-block-end: 73px;
 }
 
 .header {
@@ -168,6 +168,7 @@ body.lock-screen::before {
   display: grid;
   grid-template-columns: auto;
   grid-template-rows: repeat(3, auto);
+  justify-items: center;
   gap: 64px 30px;
 }
 
