@@ -123,7 +123,7 @@ body.lock-screen::before {
   transition: color 0.1s;
 }
 .menu__link:hover {
-  color: hsl(35, 77%, 62%);
+  color: hsl(5, 85%, 63%);
 }
 
 .burger-menu {
