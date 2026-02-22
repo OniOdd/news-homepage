@@ -240,4 +240,44 @@ body.lock-screen::before {
   color: hsl(233, 8%, 79%);
 }
 
+.popular {
+  display: flex;
+  flex-direction: column;
+  gap: 34px 52px;
+}
+.popular__heading {
+  display: none;
+}
+.popular__article {
+  display: flex;
+  column-gap: 1.5rem;
+}
+.popular__img {
+  width: 100px;
+}
+.popular__content {
+  display: flex;
+  flex-direction: column;
+  row-gap: 0.625rem;
+}
+.popular__number {
+  font-size: 2rem;
+  font-weight: 700;
+  color: hsl(5, 85%, 63%);
+}
+.popular__title {
+  font-size: 1.125rem;
+  font-weight: 800;
+}
+.popular__link {
+  color: hsl(240, 100%, 5%);
+  transition: color 0.1s;
+}
+.popular__link:hover {
+  color: hsl(5, 85%, 63%);
+}
+.popular__text {
+  line-height: 1.7;
+}
+
 /*# sourceMappingURL=main.css.map */

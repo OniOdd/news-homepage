@@ -195,3 +195,52 @@
     color: u.$clr-grayish-blue;
   }
 }
+
+.popular {
+  display: flex;
+  flex-direction: column;
+  gap: 34px 52px;
+
+  &__heading {
+    display: none;
+  }
+
+  &__article {
+    display: flex;
+    column-gap: u.rem(24);
+  }
+
+  &__img {
+    width: 100px;
+  }
+
+  &__content {
+    display: flex;
+    flex-direction: column;
+    row-gap: u.rem(10);
+  }
+
+  &__number {
+    font-size: u.rem(32);
+    font-weight: 700;
+    color: u.$clr-soft-red;
+  }
+
+  &__title {
+    font-size: u.rem(18);
+    font-weight: 800;
+  }
+
+  &__link {
+    color: u.$clr-very-dark-blue;
+    transition: color 0.1s;
+
+    &:hover {
+      color: u.$clr-soft-red;
+    }
+  }
+
+  &__text {
+    line-height: 1.7;
+  }
+}
