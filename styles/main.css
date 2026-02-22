@@ -206,4 +206,38 @@ body.lock-screen::before {
   background-color: hsl(240, 100%, 5%);
 }
 
+.new {
+  max-width: 350px;
+  padding: 21px 21px 24px;
+  background-color: hsl(240, 100%, 5%);
+}
+.new__heading {
+  font-size: 2rem;
+  font-weight: 700;
+  color: hsl(35, 77%, 62%);
+}
+.new__article {
+  padding-block-end: 1.813rem;
+  border-bottom: 1px solid hsl(233, 8%, 79%);
+}
+.new__heading:not(:last-child), .new__article:not(:last-child) {
+  margin-block-end: 2rem;
+}
+.new__title {
+  margin-block-end: 0.5rem;
+  font-size: 1.25rem;
+  font-weight: 800;
+}
+.new__link {
+  color: hsl(36, 100%, 99%);
+  transition: color 0.1s;
+}
+.new__link:hover {
+  color: hsl(35, 77%, 62%);
+}
+.new__text {
+  line-height: 1.7;
+  color: hsl(233, 8%, 79%);
+}
+
 /*# sourceMappingURL=main.css.map */

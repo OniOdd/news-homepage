@@ -153,3 +153,45 @@
     }
   }
 }
+
+.new {
+  max-width: 350px;
+  padding: 21px 21px 24px;
+  background-color: u.$clr-very-dark-blue;
+
+  &__heading {
+    font-size: u.rem(32);
+    font-weight: 700;
+    color: u.$clr-soft-orange;
+  }
+
+  &__article {
+    padding-block-end: u.rem(29);
+    border-bottom: 1px solid u.$clr-grayish-blue;
+  }
+
+  &__heading:not(:last-child),
+  &__article:not(:last-child) {
+    margin-block-end: u.rem(32);
+  }
+
+  &__title {
+    margin-block-end: u.rem(8);
+    font-size: u.rem(20);
+    font-weight: 800;
+  }
+
+  &__link {
+    color: u.$clr-off-white;
+    transition: color 0.1s;
+
+    &:hover {
+      color: u.$clr-soft-orange;
+    }
+  }
+
+  &__text {
+    line-height: 1.7;
+    color: u.$clr-grayish-blue;
+  }
+}
