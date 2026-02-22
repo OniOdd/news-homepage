@@ -216,7 +216,7 @@ body.lock-screen::before {
   font-weight: 700;
   color: hsl(35, 77%, 62%);
 }
-.new__article {
+.new__article:not(:last-child) {
   padding-block-end: 1.813rem;
   border-bottom: 1px solid hsl(233, 8%, 79%);
 }

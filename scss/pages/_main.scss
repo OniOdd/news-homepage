@@ -165,7 +165,7 @@
     color: u.$clr-soft-orange;
   }
 
-  &__article {
+  &__article:not(:last-child) {
     padding-block-end: u.rem(29);
     border-bottom: 1px solid u.$clr-grayish-blue;
   }
