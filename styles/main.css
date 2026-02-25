@@ -157,6 +157,7 @@ body.lock-screen::before {
 }
 @media (min-width: 768px) {
   .menu__link {
+    font-size: inherit;
     color: hsl(236, 13%, 42%);
   }
 }

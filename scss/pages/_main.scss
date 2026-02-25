@@ -78,6 +78,7 @@
     }
 
     @include u.media-up(md) {
+      font-size: inherit;
       color: u.$clr-dark-grayish-blue;
     }
   }
